@@ -1,0 +1,19 @@
+<!-- <app-child [counter]="p_counter"></app-child>
+<button (click)="update()">update</button> -->
+
+<!-- <app-child #ch [counter]="p_counter"></app-child>
+<button (click)="ch.counter =ch.counter + 1">update</button> plain-->
+
+<!-- <app-child></app-child>
+<button (click)="update()">update</button> -->
+
+<!-- <app-child #ch></app-child>
+<button (click)="update()">update</button> -->
+
+<!-- <app-child [counter]="1"></app-child>
+<app-child [counter]="2"></app-child>
+<button (click)="update()">update</button> -->
+
+<app-child [counter]="1"></app-child>
+<app-child *ngIf="showTwo" [counter]="2"></app-child>
+<button (click)="update()">update</button>
