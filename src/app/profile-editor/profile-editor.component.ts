@@ -12,9 +12,7 @@ export class ProfileEditorComponent {
     firstName: ['', Validators.required],
     lastName: [''],
     address: [{}],
-    aliases: this.fb.array([
-      this.fb.control('')
-    ])
+    aliases: [["55"]]
   });
 
   constructor(private fb: FormBuilder) { }
